@@ -2,7 +2,7 @@
 
 Small CEM3320 based low pass filter PCB, designed to plug into a larger motherboard.
 
-![](pics/board_top.png)
+![](pics/pcb_front.png)
 
 
 ## Details
