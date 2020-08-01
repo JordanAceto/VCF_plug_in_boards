@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC140
+D 1A Ic, 40V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC141
+D 1A Ic, 60V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BCM847DS135
+D NPN/NPN matched double transistors in small Surface-Mounted Device (SMD) plastic
+$ENDCMP
+#
+$CMP BCM857DS
+D PNP transistor, base/collector/emitter
+K transistor PNP
+F ~
+$ENDCMP
+#
+#End Doc Library

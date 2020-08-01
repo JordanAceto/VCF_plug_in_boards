@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name haible_tau_phaser_plug_in_board)(type KiCad)(uri ${KIPRJMOD}/haible_tau_phaser_plug_in_board.pretty)(options "")(descr ""))
+)

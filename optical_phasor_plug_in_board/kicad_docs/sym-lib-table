@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name optical_phasor_plug_in_board-rescue)(type Legacy)(uri ${KIPRJMOD}/optical_phasor_plug_in_board-rescue.lib)(options "")(descr ""))
+)

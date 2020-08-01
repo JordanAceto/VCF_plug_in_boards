@@ -1,0 +1,234 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "minimoog LPF"
+Date "2020-07-27"
+Rev "0"
+Comp ""
+Comment1 "creativecommons.org/licenses/by/4.0/"
+Comment2 "License: CC by 4.0"
+Comment3 "Author: Jordan Aceto"
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 5F221B85
+P 4500 2700
+F 0 "U1" H 4458 2746 50  0000 L CNN
+F 1 "TL072" H 4458 2655 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4500 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4500 2700 50  0001 C CNN
+	3    4500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2300 4400 2400
+Wire Wire Line
+	4400 3000 4400 3100
+$Comp
+L power:+12V #PWR0123
+U 1 1 5F22FF54
+P 4400 2300
+F 0 "#PWR0123" H 4400 2150 50  0001 C CNN
+F 1 "+12V" H 4415 2473 50  0000 C CNN
+F 2 "" H 4400 2300 50  0001 C CNN
+F 3 "" H 4400 2300 50  0001 C CNN
+	1    4400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0124
+U 1 1 5F23197B
+P 4400 3100
+F 0 "#PWR0124" H 4400 3200 50  0001 C CNN
+F 1 "-12V" H 4415 3273 50  0000 C CNN
+F 2 "" H 4400 3100 50  0001 C CNN
+F 3 "" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5F25B776
+P 4900 4350
+F 0 "C15" H 5015 4396 50  0000 L CNN
+F 1 "100nF" H 5015 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4938 4200 50  0001 C CNN
+F 3 "~" H 4900 4350 50  0001 C CNN
+	1    4900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4100 4400 4200
+Wire Wire Line
+	4900 4200 4900 4100
+Connection ~ 4900 4100
+Wire Wire Line
+	4900 4100 4400 4100
+Wire Wire Line
+	5400 4200 5400 4100
+Wire Wire Line
+	5400 4100 4900 4100
+Wire Wire Line
+	4400 4600 4400 4500
+Wire Wire Line
+	4400 4600 4400 4700
+Connection ~ 4400 4600
+Wire Wire Line
+	4900 4600 4900 4500
+Connection ~ 4900 4600
+Wire Wire Line
+	4900 4600 4400 4600
+Wire Wire Line
+	4900 4600 4900 4700
+Wire Wire Line
+	5400 4500 5400 4600
+Connection ~ 5400 4600
+Wire Wire Line
+	5400 4600 4900 4600
+Wire Wire Line
+	5400 4600 5400 4700
+Wire Wire Line
+	4900 5000 4900 5100
+Connection ~ 4900 5100
+Wire Wire Line
+	4900 5100 4400 5100
+Wire Wire Line
+	5400 5000 5400 5100
+Wire Wire Line
+	5400 5100 4900 5100
+$Comp
+L power:-12V #PWR0129
+U 1 1 5F274CB3
+P 4400 5100
+F 0 "#PWR0129" H 4400 5200 50  0001 C CNN
+F 1 "-12V" H 4415 5273 50  0000 C CNN
+F 2 "" H 4400 5100 50  0001 C CNN
+F 3 "" H 4400 5100 50  0001 C CNN
+	1    4400 5100
+	-1   0    0    1   
+$EndComp
+Connection ~ 4400 5100
+$Comp
+L power:+12V #PWR0130
+U 1 1 5F275BB8
+P 4400 4100
+F 0 "#PWR0130" H 4400 3950 50  0001 C CNN
+F 1 "+12V" H 4415 4273 50  0000 C CNN
+F 2 "" H 4400 4100 50  0001 C CNN
+F 3 "" H 4400 4100 50  0001 C CNN
+	1    4400 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 4100
+$Comp
+L power:GND #PWR0131
+U 1 1 5F2776D7
+P 4400 4600
+F 0 "#PWR0131" H 4400 4350 50  0001 C CNN
+F 1 "GND" V 4405 4472 50  0000 R CNN
+F 2 "" H 4400 4600 50  0001 C CNN
+F 3 "" H 4400 4600 50  0001 C CNN
+	1    4400 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 5100 4400 5000
+$Comp
+L Device:C C16
+U 1 1 5F2087AD
+P 4900 4850
+F 0 "C16" H 5015 4896 50  0000 L CNN
+F 1 "100nF" H 5015 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4938 4700 50  0001 C CNN
+F 3 "~" H 4900 4850 50  0001 C CNN
+	1    4900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5F20907D
+P 5400 4350
+F 0 "C17" H 5515 4396 50  0000 L CNN
+F 1 "100nF" H 5515 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5438 4200 50  0001 C CNN
+F 3 "~" H 5400 4350 50  0001 C CNN
+	1    5400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5F20935E
+P 5400 4850
+F 0 "C18" H 5515 4896 50  0000 L CNN
+F 1 "100nF" H 5515 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5438 4700 50  0001 C CNN
+F 3 "~" H 5400 4850 50  0001 C CNN
+	1    5400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4200 5900 4100
+Wire Wire Line
+	5900 4100 5400 4100
+Wire Wire Line
+	5900 4500 5900 4600
+Connection ~ 5900 4600
+Wire Wire Line
+	5900 4600 5400 4600
+Wire Wire Line
+	5900 4600 5900 4700
+Wire Wire Line
+	5900 5000 5900 5100
+Wire Wire Line
+	5900 5100 5400 5100
+$Comp
+L Device:C C19
+U 1 1 5F2E0080
+P 5900 4350
+F 0 "C19" H 6015 4396 50  0000 L CNN
+F 1 "100nF" H 6015 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 4200 50  0001 C CNN
+F 3 "~" H 5900 4350 50  0001 C CNN
+	1    5900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5F2E0086
+P 5900 4850
+F 0 "C20" H 6015 4896 50  0000 L CNN
+F 1 "100nF" H 6015 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 4700 50  0001 C CNN
+F 3 "~" H 5900 4850 50  0001 C CNN
+	1    5900 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 4100
+Connection ~ 5400 5100
+$Comp
+L Device:C C14
+U 1 1 5F20833A
+P 4400 4850
+F 0 "C14" H 4515 4896 50  0000 L CNN
+F 1 "10uF" H 4515 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4438 4700 50  0001 C CNN
+F 3 "~" H 4400 4850 50  0001 C CNN
+	1    4400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5F26618F
+P 4400 4350
+F 0 "C13" H 4515 4396 50  0000 L CNN
+F 1 "10uF" H 4515 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4438 4200 50  0001 C CNN
+F 3 "~" H 4400 4350 50  0001 C CNN
+	1    4400 4350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

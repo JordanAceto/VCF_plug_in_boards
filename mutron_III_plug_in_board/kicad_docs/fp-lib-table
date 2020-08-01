@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name mutron_III_plug_in_board)(type KiCad)(uri ${KIPRJMOD}/mutron_III_plug_in_board.pretty)(options "")(descr ""))
+)

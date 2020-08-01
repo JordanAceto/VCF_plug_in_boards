@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CEM3320_LPF_plug_in_board-rescue)(type Legacy)(uri ${KIPRJMOD}/CEM3320_LPF_plug_in_board-rescue.lib)(options "")(descr ""))
+)
