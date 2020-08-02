@@ -272,7 +272,7 @@ $Comp
 L lpf_parts:BCM847DS135 Q10
 U 2 1 5F114A19
 P 5750 3550
-F 0 "Q10" H 5500 3850 50  0000 L CNN
+F 0 "Q10" H 5350 3850 50  0000 L CNN
 F 1 "BCM847" H 5300 3750 50  0000 L CNN
 F 2 "lpf_footprints:SOT457" H 5950 3475 50  0001 L CIN
 F 3 "" H 5750 3550 50  0001 L CNN
@@ -283,7 +283,7 @@ $Comp
 L lpf_parts:BCM847DS135 Q10
 U 1 1 5F12DDB3
 P 4950 3550
-F 0 "Q10" H 4650 3850 50  0000 L CNN
+F 0 "Q10" H 4550 3850 50  0000 L CNN
 F 1 "BCM847" H 4500 3750 50  0000 L CNN
 F 2 "lpf_footprints:SOT457" H 5150 3475 50  0001 L CIN
 F 3 "" H 4950 3550 50  0001 L CNN
@@ -400,7 +400,7 @@ Connection ~ 4650 3550
 Wire Wire Line
 	4550 3550 4650 3550
 Text Notes 2800 4450 0    50   ~ 0
-Applying the dry signal to the feedback\nVCA provides "Q compensation", which\nlessens the passband gain loss when the\nfeedback is turned up.\n\nR? sets the amount of compensation. You\ncan experiment with different amounts,\nor not install the resistor at all to get the \nclassis no-compensation sound.\n
+Applying the dry signal to the feedback\nVCA provides "Q compensation", which\nlessens the passband gain loss when the\nfeedback is turned up.\n\nR28 sets the amount of compensation. You\ncan experiment with different amounts,\nor not install the resistor at all to get the \nclassis no-compensation sound.\n
 $Comp
 L Device:R R28
 U 1 1 5F202356
