@@ -351,10 +351,10 @@ Wire Wire Line
 	7100 1200 7000 1200
 Connection ~ 7000 1200
 $Comp
-L Connector:Conn_01x04_Male J2
+L Connector:Conn_01x04_Male J1
 U 1 1 5D018601
 P 900 1050
-F 0 "J2" H 1008 1331 50  0000 C CNN
+F 0 "J1" H 1008 1331 50  0000 C CNN
 F 1 "signal_in" H 1008 1240 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 900 1050 50  0001 C CNN
 F 3 "~" H 900 1050 50  0001 C CNN
@@ -617,10 +617,10 @@ Connection ~ 9350 6150
 Wire Wire Line
 	9350 6150 9350 6200
 $Comp
-L Connector:Conn_01x04_Male J1
+L Connector:Conn_01x04_Male J2
 U 1 1 5D1784CF
 P 700 4050
-F 0 "J1" H 808 4331 50  0000 C CNN
+F 0 "J2" H 808 4331 50  0000 C CNN
 F 1 "cutoff_CV_in" H 808 4240 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 700 4050 50  0001 C CNN
 F 3 "~" H 700 4050 50  0001 C CNN
