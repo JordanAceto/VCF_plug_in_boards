@@ -1,4 +1,4 @@
-# CEM3320 Plug-In Board
+# ARP 4072 LPF Plug-In Board
 
 Small ARP 4072 based low pass filter PCB, designed to plug into a larger motherboard.
 
