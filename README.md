@@ -31,6 +31,11 @@
 - #### Current draw varies across the filter boards from a handfull of milliamps to a few 10's of milliamps. 
 - #### Ensure that the motherboard can supply at least 100mA or so on each rail.
 
+## Starting new plug-in board pcbs:
+- #### A template is provided to make it easy to start new plug-in board filters.
+- #### This template contains a standard directory structure, and the start of a kicad project.
+- #### The template kicad docs have the skeleton of the schematic and pcb.
+
 ## Status of the boards:
 
 Board | breadboarded | schematic | pcb layout | built and tested | documentation
