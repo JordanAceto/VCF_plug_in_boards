@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "ARP 4072 LPF"
-Date "2020-07-26"
-Rev "0"
+Date "2020-08-13"
+Rev "1"
 Comp ""
 Comment1 "creativecommons.org/licenses/by/4.0/"
 Comment2 "License: CC by 4.0"
@@ -40,7 +40,7 @@ L Device:R R32
 U 1 1 5F20107B
 P 5750 3000
 F 0 "R32" V 5650 3000 50  0000 C CNN
-F 1 "470k" V 5750 3000 50  0000 C CNN
+F 1 "120k" V 5750 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5680 3000 50  0001 C CNN
 F 3 "~" H 5750 3000 50  0001 C CNN
 	1    5750 3000
@@ -69,17 +69,6 @@ Text Notes 4450 4100 0    50   ~ 0
 scale trim
 Text Notes 4450 3150 0    50   ~ 0
 offset trim
-$Comp
-L power:-12V #PWR0117
-U 1 1 5F4ACD3D
-P 5000 3150
-F 0 "#PWR0117" H 5000 3250 50  0001 C CNN
-F 1 "-12V" H 5015 3323 50  0000 C CNN
-F 2 "" H 5000 3150 50  0001 C CNN
-F 3 "" H 5000 3150 50  0001 C CNN
-	1    5000 3150
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:+12V #PWR0118
 U 1 1 5F4AD59E
@@ -206,5 +195,16 @@ F 2 "" H 5600 4050 50  0001 C CNN
 F 3 "" H 5600 4050 50  0001 C CNN
 	1    5600 4050
 	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5FAF5663
+P 5000 3150
+F 0 "#PWR0117" H 5000 2900 50  0001 C CNN
+F 1 "GND" H 5005 2977 50  0000 C CNN
+F 2 "" H 5000 3150 50  0001 C CNN
+F 3 "" H 5000 3150 50  0001 C CNN
+	1    5000 3150
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

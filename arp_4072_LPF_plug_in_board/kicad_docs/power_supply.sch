@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "ARP 4072 LPF"
-Date "2020-07-26"
-Rev "0"
+Date "2020-08-13"
+Rev "1"
 Comp ""
 Comment1 "creativecommons.org/licenses/by/4.0/"
 Comment2 "License: CC by 4.0"
