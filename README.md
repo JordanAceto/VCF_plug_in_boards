@@ -42,7 +42,7 @@ Board | breadboarded | schematic | pcb layout | built and tested | documentation
 ------|--------------|-----------|------------|------------------|---------------
 [2164 phasor](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/2164_phasor_plug_in_board)       | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; 
 [arp 4072 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/arp_4072_LPF_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; 
-[CEM3320 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/CEM3320_LPF_plug_in_board)       | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; 
+[CEM3320 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/CEM3320_LPF_plug_in_board)       | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [haible 2040 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/haible_2040_LPF_plug_in_board)   | &#9745; | &#9744; | &#9744; | &#9744; | &#9744; 
 [haible tau phasor](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/haible_tau_phaser_plug_in_board/kicad_docs) | &#9744; | &#9744; | &#9744; | &#9744; | &#9744; 
 [minimoog LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/minimoog_LPF_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; 
