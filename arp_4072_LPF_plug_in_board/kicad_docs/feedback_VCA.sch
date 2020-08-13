@@ -249,7 +249,7 @@ L Device:D_Zener D1
 U 1 1 5F10A5EE
 P 8100 5200
 F 0 "D1" V 8054 5280 50  0000 L CNN
-F 1 "1N5225B" V 8145 5280 50  0000 L CNN
+F 1 "MMSZ5225B" V 8145 5280 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 8100 5200 50  0001 C CNN
 F 3 "~" H 8100 5200 50  0001 C CNN
 	1    8100 5200
@@ -431,5 +431,5 @@ Wire Wire Line
 	4550 3550 4650 3550
 Connection ~ 4650 3550
 Text Notes 2800 4450 0    50   ~ 0
-Applying the dry signal to the feedback\nVCA provides "Q compensation", which\nlessens the passband gain loss when the\nfeedback is turned up.\n\nR37 sets the amount of compensation. You\ncan experiment with different amounts,\nor not install the resistor at all to get the \nclassis no-compensation sound.\n
+Applying the dry signal to the feedback\nVCA provides "Q compensation", which\nlessens the passband gain loss when the\nfeedback is turned up.\n\nR37 sets the amount of compensation. You\ncan experiment with different amounts,\nor not install the resistor at all to get the \nclassic no-compensation sound.\n
 $EndSCHEMATC
