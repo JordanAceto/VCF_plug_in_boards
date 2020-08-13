@@ -22,8 +22,8 @@ The intended use for this board is to plug in to a larger motherboard which cont
 - A bipolar 12 volt power supply is required. This will typically come from the motherboard.
 
 ## Calibration
-- RV1 (depth trim): trims the depth of incoming frequency CV signals. Turn CW for greater depth and CCW for less depth. Adjust to taste.
-- RV2 (center trim): trims the center frequency of the filter. Turn CW for higher center frequency and CCW for lower center frequency. Adjust to taste.
+- RV1 (depth trim): trims the depth of incoming frequency CV signals. Adjust to taste.
+- RV2 (center trim): trims the center frequency of the filter. Adjust to taste.
 - RV3 (feedback trim): trims the maximum amount of feedback. The Mutron-III style state variable filter does not self oscillate, so just adjust this to taste.
 
 ## Filter mode selection
