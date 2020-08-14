@@ -21,11 +21,6 @@ The intended use for this board is to plug in to a larger motherboard which cont
 ## Power Supply Requirements
 - A bipolar 12 volt power supply is required. This will typically come from the motherboard.
 
-## Calibration
-- RV1 (depth trim): trims the depth of incoming frequency CV signals. Adjust to taste.
-- RV2 (center trim): trims the center frequency of the filter. Adjust to taste.
-- RV3 (feedback trim): trims the maximum amount of feedback. The Mutron-III style state variable filter does not self oscillate, so just adjust this to taste.
-
 ## Filter mode selection
 - This filter has three filter modes available: Low Pass, Band Pass, and High Pass.
 - One mode at a time can be selected with a jumper.
@@ -36,3 +31,7 @@ The mutron-III uses vactrols to control the filter cutoff frequency. The exact d
 The picture below shows how to install VTLxxx type and NSLxxx type vactrols:
 
 ![](pics/vactrol_options.JPG)
+
+## Calibration
+
+- See the top level README for calibration instructions.
