@@ -422,8 +422,8 @@ Text HLabel 8900 4650 2    50   Input ~ 0
 feedback_CV_in
 Text Notes 6850 4350 0    50   ~ 0
 feedback trim
-Text Notes 8100 5150 0    50   ~ 0
-zener bends feedback CV\nsignal to approximate a \nreverse log response
+Text Notes 8250 5300 0    50   ~ 0
+The zener bends the feedback\nCV signal to approximate a \nreverse log response.\n\nYou can experiment with different \nzeners, or leave this off completely.
 Wire Wire Line
 	7600 5250 7600 5150
 $Comp
@@ -453,7 +453,7 @@ P 7600 5000
 AR Path="/5F2FFAC0" Ref="D?"  Part="1" 
 AR Path="/5F2781EF/5F2FFAC0" Ref="D1"  Part="1" 
 F 0 "D1" V 7554 5079 50  0000 L CNN
-F 1 "1N5225B" V 7645 5079 50  0000 L CNN
+F 1 "MMSZ5225B" V 7645 5079 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7600 5000 50  0001 C CNN
 F 3 "~" H 7600 5000 50  0001 C CNN
 	1    7600 5000

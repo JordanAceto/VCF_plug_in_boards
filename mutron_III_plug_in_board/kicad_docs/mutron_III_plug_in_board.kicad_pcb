@@ -1658,7 +1658,7 @@
     (fp_text reference D1 (at -3.555 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N5225B (at 0 2.1) (layer F.Fab)
+    (fp_text value MMSZ5225B (at 0 2.1) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.25 -1) (end 1.65 -1) (layer F.SilkS) (width 0.12))
