@@ -10,6 +10,7 @@
 ## Signal levels:
 - #### The plug-in boards are expecting modular synthesizer level signals of around +/- 5 volts. 
 - #### Many filters have interesting resonance and distortion characteristics that depend on signal level. Experiment with increasing and decreasing the signal levels to find the sweet spots.
+- #### The output signal may or may not be in phase with the input signal. 
 
 ## CV signals:
 - #### The motherboard is expected to provide a 0 to +2.048 volt cutoff frequency CV signal. The plug-in boards are designed to sweep through their entire range with this range, with 0 volts mapping to the lowest cutoff frequency (usually around 20Hz) and +2.048 volts mapping to the highest cutoff frequency (usually around 20kHz).
@@ -24,7 +25,23 @@
 
 ## Calibration:
 - #### Each plug-in board has calibration trimpots for modulation depth, center frequency, and feedback sensitivity.
-- #### For filters that can track at 1 volt per octave, they can probably be trimmed to play in tune, but the trimming may be fiddly. Emphasis has been placed on getting a nice sweep through the filters useful range, and not accurate tuning or temperature compensation.
+- #### For filters that can track at 1 volt per octave, they can probably be trimmed to play in tune over a limited range, but the trimming may be fiddly. Emphasis has been placed on getting a nice sweep through the filters useful range, and not accurate tuning or temperature compensation.
+- #### Calibration is a matter of taste, and any setup that sounds good to you is correct. 
+- #### Here is how I calibrate Low Pass Filters:
+    1. Inject a 30Hz square wave onto the signal input while monitoring the signal output.
+    2. Turn the cutoff CV and feedback CV signals all the way down (set them to zero volts).
+    3. Adjust the **center** trim so that the signal just dissapears.
+    4. Remove the signal input.
+    5. Turn the cutoff CV to around 1/2 way up and turn the feedback CV all the way up.
+    6. Adjust the **feedback** trim until self oscillation occurs.
+    7. Turn the cutoff CV signal all the way up.
+    8. Adjust the **depth** trim until the frequency of the self oscillation is around 20kHz.
+    9. Sweep the cutoff frequency up and down and readjust the **feedback** trim as needed to get reliable self oscillation over the desired range. Note that some filters will not self oscillate over their whole frequency range.
+    10. Now reinject the signal and listen to the filter while changing the cutoff and feedack CV signals. Readjust the trimmers to taste if desired.
+
+- #### I use a similar strategy for other filter topologies like Phase Shifters. Without a self oscillation signal or a strong sense of "cutoff frequency", just adjust the trimmers so that the filter has a nice sweep and the feedback control feels good.
+- #### The above calibration strategy is very quick and easy once you've done it a few times.
+
 
 ## Power supply considerations:
 - #### The motherboard is expected to provide a +/-12 volt DC power supply.
