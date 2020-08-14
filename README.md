@@ -4,13 +4,16 @@
 - #### They all share an identical mechanical and electrical format. 
 - #### The intended use is to make a bunch of different filters and then be able to easily try them out by swapping the filter plug-in boards into the motherboard.
 
+
 ## The mechanical format and pinout shared by all plug-in boards:
 ![](assets/standard_format.png)
+
 
 ## Signal levels:
 - #### The plug-in boards are expecting modular synthesizer level signals of around +/- 5 volts. 
 - #### Many filters have interesting resonance and distortion characteristics that depend on signal level. Experiment with increasing and decreasing the signal levels to find the sweet spots.
 - #### The output signal may or may not be in phase with the input signal. 
+
 
 ## CV signals:
 - #### The motherboard is expected to provide a 0 to +2.048 volt cutoff frequency CV signal. The plug-in boards are designed to sweep through their entire range with this range, with 0 volts mapping to the lowest cutoff frequency (usually around 20Hz) and +2.048 volts mapping to the highest cutoff frequency (usually around 20kHz).
@@ -18,10 +21,12 @@
 - #### The CV range of 0 to +2.048 volts was chosen becuase it allows the cutoff and feedback CV signals to be conveniently driven directly from a cheap MCP4822 DAC. Don't worry about an exact 2.048 volt range, the filters have trimmers to account for variations.
 - #### If different scalings are desired it is usually fairly trivial to change some resistor values in the CV scaling circuits on the plug-in boards.
 
+
 ## Feedback considerations:
 - #### The plug-in boards all have voltage controlled feedback. This makes it easier to swap them in and out of a motherboard without worrying about the type and value of feedback potentiometer. 
 - #### This also makes it easier to apply "Q-compensation" to 4-pole low pass filters that suffer from passband attenuation when feedback is increased. 
 - #### All 4-pole filters have some form of Q-compensation built in. The builder can usually adjust the amount of compensation, or choose no compensation at all by changing a single resistor.
+
 
 ## Calibration:
 - #### Each plug-in board has calibration trimpots for modulation depth, center frequency, and feedback sensitivity.
@@ -48,10 +53,21 @@
 - #### Current draw varies across the filter boards from a handfull of milliamps to a few 10's of milliamps. 
 - #### Ensure that the motherboard can supply at least 100mA or so on each rail.
 
+
 ## Starting new plug-in board pcbs:
 - #### A template is provided to make it easy to start new plug-in board filters.
 - #### This template contains a standard directory structure, and the start of a kicad project.
 - #### The template kicad docs have the skeleton of the schematic and pcb.
+
+
+## Project structure:
+- #### Each filter plug-in board subdirectory follows a consistent structure:
+    - #### `kicad_docs/` contains the files needed to open and edit the filter schematic and pcb layout using kicad.
+    - #### `construction_docs/` contains a pdf copy of the schematic, an interactive BOM which can be opened in a web browser, and gerbers.
+    - #### `pics/` contains a few rendered pics of the pcb.
+- #### Basically, if you want to edit the filter go into `kicad_docs/`, if you want to build the filter go into `construction_docs/`.
+- #### Note that the filters may be a work in progress and may not contain complete documentation until they are done. 
+- #### See the board status checklist below, any board that is not checked all the way across is likely to contain errors. Boards that are all checked all the way across are safe to build.
 
 ## Status of the boards:
 
