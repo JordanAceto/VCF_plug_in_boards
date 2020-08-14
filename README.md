@@ -63,6 +63,6 @@ Board | breadboarded | schematic | pcb layout | built and tested | documentation
 [haible 2040 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/haible_2040_LPF_plug_in_board)   | &#9745; | &#9744; | &#9744; | &#9744; | &#9744; 
 [haible tau phasor](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/haible_tau_phaser_plug_in_board/kicad_docs) | &#9744; | &#9744; | &#9744; | &#9744; | &#9744; 
 [minimoog LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/minimoog_LPF_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; 
-[mutron 3 SVF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/mutron_III_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; 
+[mutron 3 SVF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/mutron_III_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [optical phasor](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/optical_phasor_plug_in_board)    | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [SSI2164 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/SSI2164_4_pole_LPF_plug_in_board)       | &#9745; | &#9745; | &#9744; | &#9744; | &#9744; 
