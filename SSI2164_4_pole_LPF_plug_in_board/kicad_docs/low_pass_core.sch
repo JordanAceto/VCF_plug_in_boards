@@ -16,15 +16,15 @@ $EndDescr
 $Comp
 L lpf_parts:SSM2164 U?
 U 1 1 5F03FD0F
-P 2000 3600
+P 4300 3600
 AR Path="/5EE91CC9/5F03FD0F" Ref="U?"  Part="1" 
 AR Path="/5F03FD0F" Ref="U?"  Part="1" 
 AR Path="/5EFF89D4/5F03FD0F" Ref="U1"  Part="1" 
-F 0 "U1" H 2100 3965 50  0000 C CNN
-F 1 "SSM2164" H 2100 3874 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2100 3800 50  0001 C CNN
-F 3 "" H 2100 3800 50  0001 C CNN
-	1    2000 3600
+F 0 "U1" H 4400 3965 50  0000 C CNN
+F 1 "SSM2164" H 4400 3874 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4400 3800 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+	1    4300 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -102,15 +102,15 @@ Connection ~ 3400 3300
 $Comp
 L lpf_parts:SSM2164 U?
 U 2 1 5F03FD3F
-P 4300 3600
+P 2000 3600
 AR Path="/5EE91CC9/5F03FD3F" Ref="U?"  Part="2" 
 AR Path="/5F03FD3F" Ref="U?"  Part="2" 
 AR Path="/5EFF89D4/5F03FD3F" Ref="U1"  Part="2" 
-F 0 "U1" H 4400 3965 50  0000 C CNN
-F 1 "SSM2164" H 4400 3874 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4400 3800 50  0001 C CNN
-F 3 "" H 4400 3800 50  0001 C CNN
-	2    4300 3600
+F 0 "U1" H 2100 3965 50  0000 C CNN
+F 1 "SSM2164" H 2100 3874 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2100 3800 50  0001 C CNN
+F 3 "" H 2100 3800 50  0001 C CNN
+	2    2000 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -252,15 +252,15 @@ Wire Wire Line
 $Comp
 L lpf_parts:SSM2164 U?
 U 3 1 5F03FD84
-P 6600 3600
+P 8900 3600
 AR Path="/5EE91CC9/5F03FD84" Ref="U?"  Part="3" 
 AR Path="/5F03FD84" Ref="U?"  Part="3" 
 AR Path="/5EFF89D4/5F03FD84" Ref="U1"  Part="3" 
-F 0 "U1" H 6700 3965 50  0000 C CNN
-F 1 "SSM2164" H 6700 3874 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6700 3800 50  0001 C CNN
-F 3 "" H 6700 3800 50  0001 C CNN
-	3    6600 3600
+F 0 "U1" H 9000 3965 50  0000 C CNN
+F 1 "SSM2164" H 9000 3874 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9000 3800 50  0001 C CNN
+F 3 "" H 9000 3800 50  0001 C CNN
+	3    8900 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -397,15 +397,15 @@ $EndComp
 $Comp
 L lpf_parts:SSM2164 U?
 U 4 1 5F03FDC6
-P 8900 3600
+P 6600 3600
 AR Path="/5EE91CC9/5F03FDC6" Ref="U?"  Part="4" 
 AR Path="/5F03FDC6" Ref="U?"  Part="4" 
 AR Path="/5EFF89D4/5F03FDC6" Ref="U1"  Part="4" 
-F 0 "U1" H 9000 3965 50  0000 C CNN
-F 1 "SSM2164" H 9000 3874 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9000 3800 50  0001 C CNN
-F 3 "" H 9000 3800 50  0001 C CNN
-	4    8900 3600
+F 0 "U1" H 6700 3965 50  0000 C CNN
+F 1 "SSM2164" H 6700 3874 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6700 3800 50  0001 C CNN
+F 3 "" H 6700 3800 50  0001 C CNN
+	4    6600 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -580,43 +580,43 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 2 1 5F03FE1F
-P 5300 3700
+P 9900 3700
 AR Path="/5EE91CC9/5F03FE1F" Ref="U?"  Part="2" 
 AR Path="/5F03FE1F" Ref="U?"  Part="2" 
 AR Path="/5EFF89D4/5F03FE1F" Ref="U2"  Part="2" 
-F 0 "U2" H 5450 4000 50  0000 C CNN
-F 1 "TL072" H 5450 3900 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5300 3700 50  0001 C CNN
-	2    5300 3700
+F 0 "U2" H 10050 4000 50  0000 C CNN
+F 1 "TL072" H 10050 3900 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9900 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9900 3700 50  0001 C CNN
+	2    9900 3700
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 1 1 5F03FE25
-P 7600 3700
+P 5300 3700
 AR Path="/5EE91CC9/5F03FE25" Ref="U?"  Part="1" 
 AR Path="/5F03FE25" Ref="U?"  Part="1" 
 AR Path="/5EFF89D4/5F03FE25" Ref="U3"  Part="1" 
-F 0 "U3" H 7800 4000 50  0000 C CNN
-F 1 "TL072" H 7800 3900 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7600 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7600 3700 50  0001 C CNN
-	1    7600 3700
+F 0 "U3" H 5500 4000 50  0000 C CNN
+F 1 "TL072" H 5500 3900 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5300 3700 50  0001 C CNN
+	1    5300 3700
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 2 1 5F03FE2B
-P 9900 3700
+P 7600 3700
 AR Path="/5EE91CC9/5F03FE2B" Ref="U?"  Part="2" 
 AR Path="/5F03FE2B" Ref="U?"  Part="2" 
 AR Path="/5EFF89D4/5F03FE2B" Ref="U3"  Part="2" 
-F 0 "U3" H 10050 3950 50  0000 C CNN
-F 1 "TL072" H 10050 3850 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9900 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9900 3700 50  0001 C CNN
-	2    9900 3700
+F 0 "U3" H 7750 3950 50  0000 C CNN
+F 1 "TL072" H 7750 3850 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7600 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7600 3700 50  0001 C CNN
+	2    7600 3700
 	1    0    0    1   
 $EndComp
 Text HLabel 1000 3600 0    50   Input ~ 0

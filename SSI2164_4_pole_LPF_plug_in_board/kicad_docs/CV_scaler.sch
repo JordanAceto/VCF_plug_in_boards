@@ -27,12 +27,12 @@ $EndComp
 $Comp
 L Device:R R19
 U 1 1 5F1FD667
-P 6050 2600
-F 0 "R19" V 5950 2600 50  0000 C CNN
-F 1 "150k" V 6050 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 2600 50  0001 C CNN
-F 3 "~" H 6050 2600 50  0001 C CNN
-	1    6050 2600
+P 6050 2000
+F 0 "R19" V 5950 2000 50  0000 C CNN
+F 1 "150k" V 6050 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 2000 50  0001 C CNN
+F 3 "~" H 6050 2000 50  0001 C CNN
+	1    6050 2000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -62,7 +62,7 @@ L Device:R R17
 U 1 1 5F200C10
 P 5100 2900
 F 0 "R17" V 5000 2900 50  0000 C CNN
-F 1 "82k" V 5100 2900 50  0000 C CNN
+F 1 "100k" V 5100 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 2900 50  0001 C CNN
 F 3 "~" H 5100 2900 50  0001 C CNN
 	1    5100 2900
@@ -73,7 +73,7 @@ L Device:R R18
 U 1 1 5F20107B
 P 5100 3400
 F 0 "R18" V 5000 3400 50  0000 C CNN
-F 1 "560k" V 5100 3400 50  0000 C CNN
+F 1 "820k" V 5100 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 3400 50  0001 C CNN
 F 3 "~" H 5100 3400 50  0001 C CNN
 	1    5100 3400
@@ -99,13 +99,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2900 5700 2600
 Wire Wire Line
-	5700 2600 5900 2600
-Wire Wire Line
-	6400 3000 6500 3000
-Wire Wire Line
-	6500 3000 6500 2600
-Wire Wire Line
-	6500 2600 6200 2600
+	5700 2000 5900 2000
 Wire Wire Line
 	5700 2900 5400 2900
 Connection ~ 5700 2900
@@ -166,31 +160,26 @@ Wire Wire Line
 $Comp
 L Device:C C9
 U 1 1 5F20EF6F
-P 6050 2300
-F 0 "C9" V 5798 2300 50  0000 C CNN
-F 1 "100pF" V 5889 2300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6088 2150 50  0001 C CNN
-F 3 "~" H 6050 2300 50  0001 C CNN
-	1    6050 2300
+P 6050 1700
+F 0 "C9" V 5798 1700 50  0000 C CNN
+F 1 "100pF" V 5889 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6088 1550 50  0001 C CNN
+F 3 "~" H 6050 1700 50  0001 C CNN
+	1    6050 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5900 2300 5700 2300
+	5900 1700 5700 1700
 Wire Wire Line
-	5700 2300 5700 2600
-Connection ~ 5700 2600
-Wire Wire Line
-	6200 2300 6500 2300
-Wire Wire Line
-	6500 2300 6500 2600
-Connection ~ 6500 2600
+	5700 1700 5700 2000
+Connection ~ 5700 2000
 Text HLabel 4050 2650 0    50   Input ~ 0
 raw_Vfc_in
 Wire Wire Line
 	4050 2650 4200 2650
 Wire Wire Line
 	4200 2650 4200 2750
-Text HLabel 6500 3000 2    50   Output ~ 0
+Text HLabel 7000 3000 2    50   Output ~ 0
 scaled_Vfc_out
 Text Notes 4250 2750 0    50   ~ 0
 scale trim
@@ -234,4 +223,51 @@ Wire Wire Line
 	5550 7150 5650 7150
 Text Notes 5800 6650 0    50   ~ 0
 unused
+$Comp
+L Diode:1N4148W D5
+U 1 1 5F3AFC17
+P 6050 2600
+F 0 "D5" H 6050 2383 50  0000 C CNN
+F 1 "1N4148W" H 6050 2474 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6050 2425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6050 2600 50  0001 C CNN
+	1    6050 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D6
+U 1 1 5F3B1278
+P 6750 3000
+F 0 "D6" H 6750 2783 50  0000 C CNN
+F 1 "1N4148W" H 6750 2874 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6750 2825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 3000 6500 3000
+Wire Wire Line
+	6500 3000 6500 2600
+Wire Wire Line
+	6500 2600 6200 2600
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 6400 3000
+Wire Wire Line
+	5900 2600 5700 2600
+Connection ~ 5700 2600
+Wire Wire Line
+	5700 2600 5700 2000
+Wire Wire Line
+	6900 3000 7000 3000
+Wire Wire Line
+	7000 3000 7000 2000
+Wire Wire Line
+	7000 1700 6200 1700
+Wire Wire Line
+	6200 2000 7000 2000
+Connection ~ 7000 2000
+Wire Wire Line
+	7000 2000 7000 1700
 $EndSCHEMATC

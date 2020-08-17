@@ -356,5 +356,10 @@ F4 "4_pole_v_in" I R 6000 4250 50
 F5 "feedback_CV_in" I R 6000 4850 50 
 F6 "feedback_signal_v_out" O L 4500 3650 50 
 F7 "1_pole_v_in" I R 6000 3650 50 
+F8 "dry_in" I R 6000 4450 50 
 $EndSheet
+Text Label 6000 4450 0    50   ~ 0
+dry_signal
+Text Label 3850 1650 0    50   ~ 0
+dry_signal
 $EndSCHEMATC

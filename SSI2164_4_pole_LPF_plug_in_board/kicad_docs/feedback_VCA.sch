@@ -175,12 +175,12 @@ $EndComp
 $Comp
 L Device:R R23
 U 1 1 5F0EDC2E
-P 4000 3700
-F 0 "R23" H 3900 3700 50  0000 C CNN
-F 1 "220" V 4000 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3930 3700 50  0001 C CNN
-F 3 "~" H 4000 3700 50  0001 C CNN
-	1    4000 3700
+P 5400 3700
+F 0 "R23" H 5250 3700 50  0000 C CNN
+F 1 "220" V 5400 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5330 3700 50  0001 C CNN
+F 3 "~" H 5400 3700 50  0001 C CNN
+	1    5400 3700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -197,12 +197,12 @@ $EndComp
 $Comp
 L Device:R R26
 U 1 1 5F0EEFAD
-P 5400 3700
-F 0 "R26" H 5300 3700 50  0000 C CNN
-F 1 "220" V 5400 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5330 3700 50  0001 C CNN
-F 3 "~" H 5400 3700 50  0001 C CNN
-	1    5400 3700
+P 4000 3700
+F 0 "R26" H 3850 3700 50  0000 C CNN
+F 1 "220" V 4000 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3930 3700 50  0001 C CNN
+F 3 "~" H 4000 3700 50  0001 C CNN
+	1    4000 3700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -326,7 +326,7 @@ L Device:D_Zener D3
 U 1 1 5F10A5EE
 P 7450 5100
 F 0 "D3" V 7404 5180 50  0000 L CNN
-F 1 "D_Zener" V 7495 5180 50  0000 L CNN
+F 1 "MMSZ5225B" V 7495 5180 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7450 5100 50  0001 C CNN
 F 3 "~" H 7450 5100 50  0001 C CNN
 	1    7450 5100
@@ -366,24 +366,24 @@ feedback_CV_in
 $Comp
 L lpf_parts:BCM847DS135 Q3
 U 1 1 5F114A19
-P 4300 3450
-F 0 "Q3" H 4500 3450 50  0000 L CNN
-F 1 "BCM847DS135" H 3400 3550 50  0000 L CNN
-F 2 "lpf_footprints:SOT457" H 4500 3375 50  0001 L CIN
-F 3 "" H 4300 3450 50  0001 L CNN
-	1    4300 3450
-	1    0    0    -1  
+P 5100 3450
+F 0 "Q3" H 5300 3450 50  0000 L CNN
+F 1 "BCM847DS135" H 4650 3700 50  0000 L CNN
+F 2 "lpf_footprints:SOT457" H 5300 3375 50  0001 L CIN
+F 3 "" H 5100 3450 50  0001 L CNN
+	1    5100 3450
+	-1   0    0    -1  
 $EndComp
 $Comp
 L lpf_parts:BCM847DS135 Q3
 U 2 1 5F12DDB3
-P 5100 3450
-F 0 "Q3" H 5300 3450 50  0000 L CNN
-F 1 "BCM847DS135" H 4550 3600 50  0000 L CNN
-F 2 "lpf_footprints:SOT457" H 5300 3375 50  0001 L CIN
-F 3 "" H 5100 3450 50  0001 L CNN
-	2    5100 3450
-	-1   0    0    -1  
+P 4300 3450
+F 0 "Q3" H 4500 3450 50  0000 L CNN
+F 1 "BCM847DS135" H 3450 3700 50  0000 L CNN
+F 2 "lpf_footprints:SOT457" H 4500 3375 50  0001 L CIN
+F 3 "" H 4300 3450 50  0001 L CNN
+	2    4300 3450
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 3550 4000 3450
@@ -454,8 +454,6 @@ Wire Wire Line
 Connection ~ 3350 2100
 Connection ~ 5000 2100
 Wire Wire Line
-	5000 2100 5000 3250
-Wire Wire Line
 	3350 2300 4400 2300
 Connection ~ 3350 2300
 Connection ~ 4400 2300
@@ -502,21 +500,21 @@ L Jumper:SolderJumper_3_Open JP1
 U 1 1 5F3A18CB
 P 6100 3150
 F 0 "JP1" V 6054 3218 50  0000 L CNN
-F 1 "polarity_jumper" V 5950 3200 50  0000 L CNN
+F 1 "wet_polarity_jumper" V 5750 2800 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6100 3150 50  0001 C CNN
 F 3 "~" H 6100 3150 50  0001 C CNN
 	1    6100 3150
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6100 3350 6100 3450
 Wire Wire Line
-	6100 3450 5400 3450
+	6100 3450 5800 3450
 Connection ~ 5400 3450
 Wire Wire Line
 	6100 2950 6100 2850
 Wire Wire Line
-	6100 2850 4000 2850
+	6100 2850 5450 2850
 Text Notes 6850 4550 0    50   ~ 0
 feedback trim
 $Comp
@@ -525,13 +523,11 @@ U 1 1 5F247897
 P 2300 2200
 F 0 "C22" V 2048 2200 50  0000 C CNN
 F 1 "10uF" V 2139 2200 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2338 2050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" H 2338 2050 50  0001 C CNN
 F 3 "~" H 2300 2200 50  0001 C CNN
 	1    2300 2200
 	0    1    1    0   
 $EndComp
-Text Notes 8650 2950 0    50   ~ 0
-The weighted sum of the lpf coefficients\naccomplishes "Q-compensation" which\nmakes it so that increasing feedback does\nnot result in passband attenuation.\n\nSee AN701 for two different setups:\n4th order bandpass feedback, or\n2nd order bandpass feedback.\n\nNote that the feedback signal polarity\nmust also be set appropriately for the \nfeedback mode you are using. This is \naccomplished with a jumper.
 $Comp
 L Device:R R?
 U 1 1 5F0C08FC
@@ -588,4 +584,51 @@ F 3 "~" H 7850 1950 50  0001 C CNN
 	1    7850 1950
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	5000 2100 5000 3250
+Text Notes 8650 2950 0    50   ~ 0
+The weighted sum of the lpf coefficients\naccomplishes "Q-compensation" which\nmakes it so that increasing feedback does\nnot result in passband attenuation.\n\nSee AN701 for two different setups:\n4th order bandpass feedback, or\n2nd order bandpass feedback.\n\nNote that the feedback signal polarity\nmust also be set appropriately for the \nfeedback mode you are using. This is \naccomplished with a jumper.
+$Comp
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 5F3B01D8
+P 5800 2500
+F 0 "JP2" V 5754 2568 50  0000 L CNN
+F 1 "dry_polarity_jumper" V 6150 2200 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5800 2500 50  0001 C CNN
+F 3 "~" H 5800 2500 50  0001 C CNN
+	1    5800 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F3B1412
+P 6200 2500
+AR Path="/5EE91CC9/5F3B1412" Ref="R?"  Part="1" 
+AR Path="/5F3B1412" Ref="R?"  Part="1" 
+AR Path="/5F0B7B01/5F3B1412" Ref="R35"  Part="1" 
+F 0 "R35" V 6300 2450 50  0000 L CNN
+F 1 "opt" V 6200 2450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 2500 50  0001 C CNN
+F 3 "~" H 6200 2500 50  0001 C CNN
+	1    6200 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 2500 6050 2500
+Text HLabel 6350 2500 2    50   Input ~ 0
+dry_in
+Wire Wire Line
+	5800 2700 5800 3450
+Connection ~ 5800 3450
+Wire Wire Line
+	5800 3450 5400 3450
+Wire Wire Line
+	5800 2300 5800 2200
+Wire Wire Line
+	5800 2200 5450 2200
+Wire Wire Line
+	5450 2200 5450 2850
+Connection ~ 5450 2850
+Wire Wire Line
+	5450 2850 4000 2850
 $EndSCHEMATC
