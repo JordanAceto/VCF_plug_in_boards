@@ -281,7 +281,7 @@ F 1 "50k" V 7200 4850 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 7200 4850 50  0001 C CNN
 F 3 "~" H 7200 4850 50  0001 C CNN
 	1    7200 4850
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7050 4850 6950 4850
