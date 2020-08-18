@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Eurocad)(type KiCad)(uri ${KIPRJMOD}/svf_parts/Eurocad.pretty)(options "")(descr "")(disabled))
+  (lib (name svf_footprints)(type KiCad)(uri ${KIPRJMOD}/svf_parts/svf_footprints.pretty)(options "")(descr ""))
+)

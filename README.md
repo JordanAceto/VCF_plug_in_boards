@@ -82,3 +82,4 @@ Board | breadboarded | schematic | pcb layout | built and tested | documentation
 [mutron 3 SVF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/mutron_III_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [optical phasor](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/optical_phasor_plug_in_board)    | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [SSI2164 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/SSI2164_4_pole_LPF_plug_in_board)       | &#9745; | &#9745; | &#9744; | &#9744; | &#9744; 
+[SSI2164 SVF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/2164_SVF_plug_in_board)       | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; 

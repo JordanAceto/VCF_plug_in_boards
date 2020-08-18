@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 2164SVF-rescue)(type Legacy)(uri ${KIPRJMOD}/2164SVF-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name SSM2164_SVF_parts)(type Legacy)(uri ${KIPRJMOD}/SSM2164_SVF_parts.lib)(options "")(descr "")(disabled))
+  (lib (name svf_parts)(type Legacy)(uri ${KIPRJMOD}/svf_parts/svf_parts.lib)(options "")(descr ""))
+)
