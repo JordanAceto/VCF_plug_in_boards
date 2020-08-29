@@ -78,7 +78,7 @@ Board | breadboarded | schematic | pcb layout | built and tested | documentation
 [CEM3320 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/CEM3320_LPF_plug_in_board)       | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [haible 2040 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/haible_2040_LPF_plug_in_board)   | &#9745; | &#9744; | &#9744; | &#9744; | &#9744; 
 [haible tau phasor](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/haible_tau_phaser_plug_in_board/kicad_docs) | &#9744; | &#9744; | &#9744; | &#9744; | &#9744; 
-[Late MS20 VCF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/late_MS20_VCF_plug_in_board)       | &#9745; | &#9745; | &#9745; | &#9744; | &#9744; 
+[Late MS20 VCF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/late_MS20_VCF_plug_in_board)       | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [minimoog LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/minimoog_LPF_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [mutron 3 SVF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/mutron_III_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
 [optical phasor](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/optical_phasor_plug_in_board)    | &#9745; | &#9745; | &#9745; | &#9745; | &#9745; 
