@@ -25,6 +25,12 @@ High pass or Low pass mode is selected by placing two jumpers as indicated on th
 
 -Audio out: filtered audio output.
 
+## Filter mode selection
+
+- This filter has two filter modes available: Low Pass and High Pass.
+
+- One mode at a time can be selected by placing two jumpers according to the silkscreen.
+
 
 ## Power Supply Requirements
 
