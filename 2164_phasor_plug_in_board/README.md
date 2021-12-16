@@ -2,14 +2,16 @@
 
 Small 6 stage SSM2164 based phase shifter PCB, designed to plug into a larger motherboard.
 
-![](pics/board_top.png)
+![](pics/pcb_front.png)
 
 
 ## Details
 
-Six stage phase shifter implemented with SSM2164/V2164/SSI2164 quad VCAs. This PCB includes the audio path and CV inputs for frequency and feedback, but does not include any modulation sources.
+Six stage phase shifter implemented with SSI2164 quad VCAs.
 
-The intended use for this board is to plug in to a larger motherboard which contains slots for one or more of these plug-in boards, as well as modulation sources, panel controls, and input/output routing.
+Voltage controlled feedback is provided, consistent with the other filter plug-in boards.
+
+Construction documents for the low cost pcb assembly service from JLCPCB are included. A few parts are not included in the assembly documents, such as the through hole components, the SSI2164 chips, and also the 220pf timing capacitors for the filter stages. These are left to the builder to install. These should be good quality C0G/NP0 0805 capacitors with 2% or better tolerance.
 
 
 ## Inputs
