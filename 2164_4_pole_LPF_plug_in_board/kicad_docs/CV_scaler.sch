@@ -1,0 +1,235 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "SSI2164 LPF plug-in board"
+Date "2021-10-09"
+Rev "0.1"
+Comp ""
+Comment1 "creativecommons.org/licenses/by/4.0/"
+Comment2 "License: CC by 4.0"
+Comment3 "Author: Jordan Aceto"
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:TL072 U4
+U 2 1 5F1FAF73
+P 6050 4000
+F 0 "U4" H 6200 4150 50  0000 C CNN
+F 1 "TL072" H 6250 4250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6050 4000 50  0001 C CNN
+	2    6050 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5F1FD667
+P 6000 3000
+F 0 "R28" V 5900 3000 50  0000 C CNN
+F 1 "150k" V 6000 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 3000 50  0001 C CNN
+F 3 "~" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5F1FE377
+P 4150 3900
+F 0 "RV1" H 4050 3900 50  0000 R CNN
+F 1 "50k" V 4150 3950 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 4150 3900 50  0001 C CNN
+F 3 "~" H 4150 3900 50  0001 C CNN
+	1    4150 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5F1FF36C
+P 4800 4750
+F 0 "RV2" V 4700 4800 50  0000 R CNN
+F 1 "50k" V 4800 4800 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 4800 4750 50  0001 C CNN
+F 3 "~" H 4800 4750 50  0001 C CNN
+	1    4800 4750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5F200C10
+P 5050 3900
+F 0 "R26" V 4950 3900 50  0000 C CNN
+F 1 "100k" V 5050 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 3900 50  0001 C CNN
+F 3 "~" H 5050 3900 50  0001 C CNN
+	1    5050 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5F20107B
+P 5050 4400
+F 0 "R27" V 4950 4400 50  0000 C CNN
+F 1 "680k" V 5050 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 4400 50  0001 C CNN
+F 3 "~" H 5050 4400 50  0001 C CNN
+	1    5050 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5F202418
+P 5650 4200
+F 0 "#PWR025" H 5650 3950 50  0001 C CNN
+F 1 "GND" H 5655 4027 50  0000 C CNN
+F 2 "" H 5650 4200 50  0001 C CNN
+F 3 "" H 5650 4200 50  0001 C CNN
+	1    5650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4200 5650 4100
+Wire Wire Line
+	5650 4100 5750 4100
+Wire Wire Line
+	5750 3900 5650 3900
+Wire Wire Line
+	5650 3900 5650 3600
+Wire Wire Line
+	5650 3000 5850 3000
+Wire Wire Line
+	5650 3900 5350 3900
+Connection ~ 5650 3900
+Wire Wire Line
+	5200 4400 5350 4400
+Wire Wire Line
+	5350 4400 5350 3900
+Connection ~ 5350 3900
+Wire Wire Line
+	5350 3900 5200 3900
+Wire Wire Line
+	4800 4600 4800 4400
+Wire Wire Line
+	4800 4400 4900 4400
+Wire Wire Line
+	4300 3900 4900 3900
+$Comp
+L power:GND #PWR022
+U 1 1 5F208D13
+P 4150 4050
+F 0 "#PWR022" H 4150 3800 50  0001 C CNN
+F 1 "GND" H 4155 3877 50  0000 C CNN
+F 2 "" H 4150 4050 50  0001 C CNN
+F 3 "" H 4150 4050 50  0001 C CNN
+	1    4150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5F20CB6D
+P 4550 4850
+F 0 "#PWR023" H 4550 4600 50  0001 C CNN
+F 1 "GND" H 4555 4677 50  0000 C CNN
+F 2 "" H 4550 4850 50  0001 C CNN
+F 3 "" H 4550 4850 50  0001 C CNN
+	1    4550 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4850 4550 4750
+Wire Wire Line
+	4550 4750 4650 4750
+$Comp
+L power:-12V #PWR024
+U 1 1 5F20DAB8
+P 5050 4850
+F 0 "#PWR024" H 5050 4950 50  0001 C CNN
+F 1 "-12V" H 5065 5023 50  0000 C CNN
+F 2 "" H 5050 4850 50  0001 C CNN
+F 3 "" H 5050 4850 50  0001 C CNN
+	1    5050 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 4850 5050 4750
+Wire Wire Line
+	5050 4750 4950 4750
+$Comp
+L Device:C C14
+U 1 1 5F20EF6F
+P 6000 2700
+F 0 "C14" V 5748 2700 50  0000 C CNN
+F 1 "100pF" V 5839 2700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 2550 50  0001 C CNN
+F 3 "~" H 6000 2700 50  0001 C CNN
+	1    6000 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 2700 5650 2700
+Wire Wire Line
+	5650 2700 5650 3000
+Connection ~ 5650 3000
+Text HLabel 4000 3650 0    50   Input ~ 0
+raw_Vfc_in
+Wire Wire Line
+	4000 3650 4150 3650
+Wire Wire Line
+	4150 3650 4150 3750
+Text HLabel 6950 4000 2    50   Output ~ 0
+scaled_Vfc_out
+Text Notes 4200 3750 0    50   ~ 0
+scale trim
+Text Notes 4900 4650 0    50   ~ 0
+offset trim
+$Comp
+L Diode:1N4148W D1
+U 1 1 5F3AFC17
+P 6000 3600
+F 0 "D1" H 6000 3383 50  0000 C CNN
+F 1 "1N4148W" H 6000 3474 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6000 3425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6000 3600 50  0001 C CNN
+	1    6000 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D2
+U 1 1 5F3B1278
+P 6700 4000
+F 0 "D2" H 6700 3783 50  0000 C CNN
+F 1 "1N4148W" H 6700 3874 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6700 3825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6700 4000 50  0001 C CNN
+	1    6700 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 4000 6450 4000
+Wire Wire Line
+	6450 4000 6450 3600
+Wire Wire Line
+	6450 3600 6150 3600
+Connection ~ 6450 4000
+Wire Wire Line
+	6450 4000 6350 4000
+Wire Wire Line
+	5850 3600 5650 3600
+Connection ~ 5650 3600
+Wire Wire Line
+	5650 3600 5650 3000
+Wire Wire Line
+	6850 4000 6950 4000
+Wire Wire Line
+	6950 4000 6950 3000
+Wire Wire Line
+	6950 2700 6150 2700
+Wire Wire Line
+	6150 3000 6950 3000
+Connection ~ 6950 3000
+Wire Wire Line
+	6950 3000 6950 2700
+$EndSCHEMATC
