@@ -84,3 +84,4 @@ Board | breadboarded | schematic | pcb layout | built and tested | documentation
 [minimoog LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/minimoog_LPF_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9745; | &#9745;
 [mutron 3 SVF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/mutron_III_plug_in_board)      | &#9745; | &#9745; | &#9745; | &#9745; | &#9745;
 [optical phasor](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/optical_phasor_plug_in_board)    | &#9745; | &#9745; | &#9745; | &#9745; | &#9745;
+[SSI2140 LPF](https://github.com/JordanAceto/VCF_plug_in_boards/tree/master/SSI2140_LPF_plug_in_board) | &#9745; | &#9745; | &#9745; | &#9744; | &#9744;
