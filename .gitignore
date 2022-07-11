@@ -8,4 +8,8 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+fp-info-cach
+*-backups
+*kicad_prl
+.vscode
 fp-info-cache
