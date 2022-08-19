@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name lpf_parts)(type Legacy)(uri ${KIPRJMOD}/lpf_parts.lib)(options "")(descr ""))
-)

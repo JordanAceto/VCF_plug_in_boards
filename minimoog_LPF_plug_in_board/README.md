@@ -2,7 +2,7 @@
 
 Small Minimoog based low pass filter PCB, designed to plug into a larger motherboard.
 
-![](pics/pcb_front.png)
+![pcb front](docs/2D/minimoog_LPF-top.jpg "pcb front")
 
 
 ## Details
