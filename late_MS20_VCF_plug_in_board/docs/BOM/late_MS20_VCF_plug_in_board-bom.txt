@@ -1,0 +1,44 @@
+Row	Description	Part	References	Value	Footprint	Quantity Per PCB	Status	Datasheet
+1	Unpolarized capacitor	C	C4	100p	C_0603_1608Metric	1	 	~
+2	Unpolarized capacitor	C	C1 C2	1n COG	C_0805_2012Metric	2	 	~
+3	Unpolarized capacitor	C	C5 C6 C7	1n	C_0603_1608Metric	3	 	~
+4	Unpolarized capacitor	C	C8	4n7	C_0603_1608Metric	1	 	~
+5	Unpolarized capacitor	C	C11 C12 C13 C14 C15 C16 C17 C18	100n	C_0603_1608Metric	8	 	~
+6	Unpolarized capacitor	C	C3	470n	C_Rect_L7.0mm_W3.5mm_P5.00mm	1	 	~
+7	Unpolarized capacitor	C	C9 C10	10u	C_0805_2012Metric	2	 	~
+8	75V 0.15A Fast Switching Diode, SOD-123	1N4148W	D1 D2 D3 D4 D5 D6	1N4148W	D_SOD-123	6	 	https://www.vishay.com/docs/85748/1n4148w.pdf
+9	Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)	Conn_01x08	J4	feedback_CV_and_PS	PinHeader_1x08_P2.54mm_Vertical	1	 	~
+10	Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)	Conn_02x04_Odd_Even	J5	hp_lp_jumper	PinHeader_2x04_P2.54mm_Vertical	1	 	~
+11	Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)	Conn_01x04	J1 J2 J3	signal_in	PinHeader_1x04_P2.54mm_Vertical	3	 	~
+12	-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23	MMBT3906	Q1 Q2	MMBT3906	SOT-23	2	 	https://www.onsemi.com/pub/Collateral/2N3906-D.PDF
+13	Resistor	R	R2 R4 R9 R12	220	R_0603_1608Metric	4	 	~
+14	Resistor	R	R18 R21	270	R_0603_1608Metric	2	 	~
+15	Resistor	R	R10 R26	1k8	R_0603_1608Metric	2	 	~
+16	Resistor	R	R17 R23 R28	4k7	R_0603_1608Metric	3	 	~
+17	Resistor	R	R1 R3 R5 R6 R7 R8 R11 R13 R14 R24	10k	R_0603_1608Metric	10	 	~
+18	Resistor	R	R16 R19	15k	R_0603_1608Metric	2	 	~
+19	Resistor	R	R22	51k	R_0603_1608Metric	1	 	~
+20	Resistor	R	R15 R25	150k	R_0603_1608Metric	2	 	~
+21	Resistor	R	R20	270k	R_0603_1608Metric	1	 	~
+22	Resistor	R	R27	470k	R_0603_1608Metric	1	 	~
+23	Trim-potentiometer	R_Potentiometer_Trim	RV1 RV2 RV3	5k	Potentiometer_Bourns_3296W_Vertical	3	 	~
+24	Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16	LM13700	U1	LM13700	SOIC-16_3.9x9.9mm_P1.27mm	1	 	http://www.ti.com/lit/ds/symlink/lm13700.pdf
+25		SSI2162	U4	SSI2162	SSOP-10_3.9x4.9mm_P1.00mm	1	 	https://www.soundsemiconductor.com/downloads/ssi2162datasheet.pdf
+26	Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8	TL072	U2 U3	TL072	SOIC-8_3.9x4.9mm_P1.27mm	2	 	http://www.ti.com/lit/ds/symlink/tl071.pdf
+
+
+
+
+
+Project info:
+Schematic:	late_MS20_VCF_plug_in_board
+Variant:	default
+Revision:	0.1
+Date:	2022-07-29
+KiCad Version:	6.0.5+dfsg-1~bpo11+1
+Statistics:
+Component Groups:	26
+Component Count:	66 (53 SMD/ 9 THT)
+Fitted Components:	66 (53 SMD/ 9 THT)
+Number of PCBs:	1
+Total Components:	66

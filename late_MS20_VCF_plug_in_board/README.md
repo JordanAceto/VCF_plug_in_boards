@@ -2,7 +2,7 @@
 
 Small MS20 based low pass/high pass filter PCB, designed to plug into a larger motherboard.
 
-![](pics/pcb_front.png)
+![pcb front](docs/2D/late_MS20_VCF_plug_in_board-top.jpg "pcb front")
 
 ## Details
 
